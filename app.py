@@ -42,8 +42,7 @@ st.write("---")
 st.markdown("""
     <div class='info-box'>
         <h3>📅 일시</h3>
-        <p style='font-size: 1.2rem;'>2026년 6월 6일 (토요일)</p>
-        <p style='font-size: 1.2rem;'>18:00</p>
+        <p style='font-size: 1.2rem;'>2026년 6월 6일 (토요일) 저녁 6시</p>
     </div>
     <div class='info-box'>
         <h3>📍 장소</h3>
