@@ -2,7 +2,7 @@ import streamlit as st
 
 # 1. 페이지 설정
 st.set_page_config(
-    page_title="🌸 서연이의 첫 번째 생일 파티에 초대합니다 🌸", 
+    page_title="🌸 서연이의 소중한 첫 번째 생일 파티에 초대합니다 🌸", 
     page_icon="👶",
     layout="centered"
 )
@@ -116,4 +116,14 @@ st.markdown("""
 # 6. 지도 버튼
 col1, col2 = st.columns(2)
 with col1:
-    st.link_button("💛 카카오맵 보기", "
+    st.link_button("💛 카카오맵 보기", "https://kko.to/ZvFmNhulyG", use_container_width=True)
+with col2:
+    st.link_button("💚 네이버 지도 보기", "https://naver.me/Fuz51F6w", use_container_width=True)
+
+# 7. 하단 안내
+st.markdown("""
+    <p style='text-align: center; font-size: 1.1rem; color: #9e9e9e !important; margin-top: 50px;'>
+        🚗 주차는 호텔 지하 주차장을 이용해 주세요.<br>
+        서연이의 첫 생일을 축하해 주셔서 감사합니다! 🙇‍♀️
+    </p>
+    """, unsafe_allow_html=True)
