@@ -59,6 +59,3 @@ with col2:
 
 # 6. 하단 안내 (선택사항)
 st.markdown("<p style='text-align: center; font-size: 0.8rem; color: #9e9e9e; margin-top: 50px;'>주차는 호텔 지하 주차장을 이용해 주세요 (3시간 무료)</p>", unsafe_allow_html=True)
-
-
-여기서 어떻게 고치면 되는지 알려줘.
