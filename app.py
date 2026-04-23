@@ -23,9 +23,9 @@ st.markdown("""
     header {visibility: hidden !important;}
     div[data-testid="stStatusWidget"] {visibility: hidden !important;}
 
-/* 모바일 하단 여백 및 문구 강제 삭제 */
-.stAppDeployButton {display:none !important;}
-#viewerBadge {display:none !important;}
+    /* 모바일 하단 여백 및 문구 강제 삭제 */
+    .stAppDeployButton {display:none !important;}
+    #viewerBadge {display:none !important;}
     
     /* 메인 타이틀 폰트 및 색상 (진한 로즈 핑크) */
     h1 {
