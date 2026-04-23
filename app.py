@@ -96,4 +96,24 @@ st.write("---")
 # 5. 일정 및 장소 정보
 st.markdown("""
     <div class='info-box'>
-        <h3>📅 일
+        <h3>📅 일시</h3>
+        <p style='font-size: 1.2rem; font-weight: bold;'>2026년 6월 6일 (토요일)</p>
+        <p style='font-size: 1.2rem; font-weight: bold;'>오후 6:00</p>
+    </div>
+    
+    <div class='info-box'>
+        <h3>📍 장소</h3>
+        <p style='font-size: 1.1rem;'><b>신라 스테이 동탄 카페 (7층)</b></p>
+        <p style='font-size: 0.9rem;'>경기도 화성시 노작로 161 7층</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+# 6. 지도 버튼 (색상 커스텀 적용됨)
+col1, col2 = st.columns(2)
+with col1:
+    st.link_button("카카오맵 보기", "https://kko.to/ZvFmNhulyG", use_container_width=True)
+with col2:
+    st.link_button("네이버 지도 보기", "https://naver.me/Fuz51F6w", use_container_width=True)
+
+# 7. 하단 안내
+st.markdown("<p style='text-align: center; font-size: 0.8rem; color: #9e9e9e !important; margin-top: 50px;'>주차는 호텔 지하 주차장을 이용해 주세요</p>", unsafe_allow_html=True)
