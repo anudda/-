@@ -99,7 +99,7 @@ st.markdown("<h1 style='text-align: center;'>배서연의<br>첫 생일 🎂</h1
 st.markdown("<p style='text-align: center; font-size: 1.5rem;'>서연이의 돌잔치에 초대합니다 🌸</p>", unsafe_allow_html=True)
 
 # 4. 사진 또는 동영상 출력 (사용자님이 성공한 방식 유지)
-st.video("baby.mp4", loop=True, autoplay=True, muted=True)
+st.video("baby.mp4", autoplay=True, loop=True, muted=True)
 # 동영상으로 바꾸려면 위 줄을 지우고 아래 줄 주석(#)을 해제하세요.
 # st.video("baby.mp4", loop=True, autoplay=True, muted=True)
 
