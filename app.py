@@ -2,7 +2,7 @@ import streamlit as st
 
 # 1. 페이지 설정
 st.set_page_config(
-    page_title="🌸 서연이의 소중한 첫 번째 생일 파티에 초대합니다 🌸", 
+    page_title="🌸 서연이의 첫 번째 생일 파티에 초대합니다 🌸", 
     page_icon="👶",
     layout="centered"
 )
@@ -89,7 +89,7 @@ st.markdown("""
 
 # 3. 타이틀 및 문구 (이모티콘 추가)
 st.markdown("<h1>서연이의 첫 번째 생일 🎂</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 1.5rem;'>꽃보다 예쁜 서연이의 첫 돌잔치에 초대합니다 🌸</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 1.5rem;'>귀염둥이 서연이의 첫 돌잔치에 초대합니다 🌸</p>", unsafe_allow_html=True)
 
 # 4. 사진 또는 동영상 출력 (사용자님이 성공한 방식 유지)
 st.image("baby.jpg", use_column_width=True)
@@ -123,7 +123,7 @@ with col2:
 # 7. 하단 안내
 st.markdown("""
     <p style='text-align: center; font-size: 1.1rem; color: #9e9e9e !important; margin-top: 50px;'>
-        🚗 주차는 호텔 지하 주차장을 이용해 주세요.<br>
-        서연이의 첫 생일을 축하해 주셔서 감사합니다! 🙇‍♀️
+        서연이의 첫 생일을 축하해 주셔서 감사합니다! 🙇‍♀️ <br>
+        
     </p>
     """, unsafe_allow_html=True)
