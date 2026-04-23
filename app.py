@@ -103,12 +103,12 @@ st.markdown("""
     <div class='info-box'>
         <h3 style='font-size: 1.8rem;'>📅 언제인가요?</h3>
         <p style='font-size: 1.4rem; font-weight: bold;'>2026년 6월 6일 (토요일)</p>
-        <p style='font-size: 1.4rem; font-weight: bold;'>늦은 6시 🕕</p>
+        <p style='font-size: 1.4rem; font-weight: bold;'>저녁 6시 🕕</p>
     </div>
     
     <div class='info-box'>
         <h3 style='font-size: 1.8rem;'>📍 어디인가요?</h3>
-        <p style='font-size: 1.3rem;'><b>신라 스테이 동탄 카페 (7층) 🏢</b></p>
+        <p style='font-size: 1.3rem;'><b>신라 스테이 동탄 카페 (7층) </b></p>
         <p style='font-size: 1.1rem;'>경기도 화성시 노작로 161 7층</p>
     </div>
 """, unsafe_allow_html=True)
