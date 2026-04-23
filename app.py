@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 1. 페이지 설정 (브라우저 탭 제목)
-st.set_page_config(page_title="돌잔치 초대장", page_icon="👶")
+st.set_page_config(page_title="배서연의 돌잔치에 초대합니다", page_icon="👶")
 
 # 깔끔한 디자인을 위한 커스텀 CSS
 st.markdown("""
@@ -26,12 +26,12 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # 2. 헤더 및 타이틀
-st.markdown("<h1 class='title-text'>00이의 첫 번째 생일</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: #8d6e63;'>사랑스러운 00이의 돌잔치에 초대합니다</p>", unsafe_allow_html=True)
+st.markdown("<h1 class='title-text'>서연이의 첫 번째 생일</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #8d6e63;'>서연이의 돌잔치에 초대합니다</p>", unsafe_allow_html=True)
 
 # 3. 대표 사진 (이미지 파일명을 본인의 파일명으로 수정하세요)
 # 예: 'main_baby.jpg'
-st.image("https://via.placeholder.com/600x800.png?text=Baby+Photo", use_column_width=True)
+st.image("baby.jpg", use_column_width=True)
 
 st.write("---")
 
