@@ -88,7 +88,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # 3. 타이틀 및 문구 (이모티콘 추가)
-st.markdown("<h1 style='text-align: center;'>서연이의<br>첫 번째 생일 🎂</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>서연이의<br>1st 생일 🎂</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 1.5rem;'>서연이의 돌잔치에 초대합니다 🌸</p>", unsafe_allow_html=True)
 
 # 4. 사진 또는 동영상 출력 (사용자님이 성공한 방식 유지)
