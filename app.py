@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 1. 페이지 설정
-st.set_page_config(page_title="배서연 돌잔치 초대장", page_icon="👶")
+st.set_page_config(page_title="🌸 서연이의 소중한 첫 번째 생일 파티에 초대합니다 🌸", page_icon="👶")
 
 # 2. 스타일 포장지 (출처 숨기기 + 글자색 고정)
 # 사용자님이 잘 된다고 한 코드의 '앞'에 들어가는 부분입니다.
