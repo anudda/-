@@ -42,21 +42,20 @@ st.write("---")
 st.markdown("""
     <div class='info-box'>
         <h3>📅 일시</h3>
-        <p style='font-size: 1.2rem;'>2026년 6월 20일 (토요일)</p>
-        <p style='font-size: 1.2rem;'>오후 12:00</p>
+        <p style='font-size: 1.2rem;'>2026년 6월 6일 (토요일)</p>
+        <p style='font-size: 1.2rem;'>18:00</p>
     </div>
     <div class='info-box'>
         <h3>📍 장소</h3>
-        <p style='font-size: 1.1rem;'><b>신라 스테이 동탄</b></p>
-        <p style='font-size: 0.9rem;'>경기도 화성시 노작로 161</p>
+        <p style='font-size: 1.1rem;'><b>신라 스테이 동탄 카페 (7층)</b></p>
+        <p style='font-size: 0.9rem;'>경기도 화성시 노작로 161 7층</p>
     </div>
     """, unsafe_allow_html=True)
 
 # 지도 버튼
 col1, col2 = st.columns(2)
 with col1:
-    st.link_button("카카오맵 보기", "https://map.kakao.com", use_container_width=True)
+    st.link_button("카카오맵 보기", "https://kko.to/ZvFmNhulyG", use_container_width=True)
 with col2:
-    st.link_button("네이버 지도 보기", "https://map.naver.com", use_container_width=True)
+    st.link_button("네이버 지도 보기", "https://naver.me/Fuz51F6w", use_container_width=True)
 
-st.markdown("<p style='text-align: center; font-size: 0.8rem; color: #9e9e9e !important; margin-top: 50px;'>주차는 호텔 지하 주차장을 이용해 주세요 (3시간 무료)</p>", unsafe_allow_html=True)
